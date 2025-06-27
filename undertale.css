@@ -8,11 +8,11 @@ Font Credits:
 	src:url("fonts/x/x.eot?") format("eot"),url("fonts/x/x.woff") format("woff"),url("fonts/x/x.otf") format("opentype");
 */
 @font-face {
-	font-family:"Determination Mono";
+	font-family:"DeterminationMono";
 	src:url("fonts/dt mono/DeterminationMonoWeb.eot?") format("eot"),url("fonts/dt mono/DeterminationMonoWeb.woff") format("woff"),url("fonts/dt mono/DeterminationMonoWeb.otf") format("opentype");
 }
 @font-face {
-	font-family:"Determination Sans";
+	font-family:"DeterminationSans";
 	src:url("fonts/dt sans/DeterminationSansWeb.eot?") format("eot"),url("fonts/dt sans/DeterminationSansWeb.woff") format("woff"),url("fonts/dt sans/DeterminationSansWeb.otf") format("opentype");
 }
 @font-face {
@@ -20,11 +20,11 @@ Font Credits:
 	src:url("fonts/mnc/MNC.eot?") format("eot"),url("fonts/mnc/MNC.woff") format("woff"),url("fonts/mnc/MNC.otf") format("opentype");
 }
 @font-face {
-	font-family:"Monster Friend Back";
+	font-family:"MonsterFriendBack";
 	src:url("fonts/Logo/back/MonsterFriendBack.eot?") format("eot"),url("fonts/Logo/back/MonsterFriendBack.woff") format("woff"),url("fonts/Logo/back/MonsterFriendBack.otf") format("opentype");
 }
 @font-face {
-	font-family:"Monster Friend Fore";
+	font-family:"MonsterFriendFore";
 	src:url("fonts/Logo/fore/MonsterFriendFore.eot?") format("eot"),url("fonts/Logo/fore/MonsterFriendFore.woff") format("woff"),url("fonts/Logo/fore/MonsterFriendFore.otf") format("opentype");
 }
 @font-face {
@@ -32,7 +32,7 @@ Font Credits:
 	src:url("fonts/mercy/MERCY.eot?") format("eot"),url("fonts/mercy/MERCY.woff") format("woff"),url("fonts/mercy/MERCY.otf") format("opentype");
 }
 @font-face {
-	font-family:"Crypt of Tomorrow";
+	font-family:"CryptofTomorrow";
 	src:url("fonts/crypt/CryptOfTomorrow.eot?") format("eot"),url("fonts/crypt/CryptOfTomorrow.woff") format("woff"),url("fonts/crypt/CryptOfTomorrow.otf") format("opentype");
 }
 @font-face {
@@ -54,12 +54,12 @@ Font Credits:
 	/* For heading elements */
 	/* On element: specify "data-text" and "data-hearts" attributes */
 	color:#888;
-	font-family:"Monster Friend Back","Monster Friend Fore",Arial,sans-serif;
+	font-family:"MonsterFriendBack","MonsterFriendFore",Arial,sans-serif;
 	font-size:2.35em;
 }
 .ut-title::before {
 	color:#e90111;
-	font-family:"Monster Friend Fore","Monster Friend Back",Arial,sans-serif;
+	font-family:"MonsterFriendFore","MonsterFriendBack",Arial,sans-serif;
 	content:attr(data-hearts);
 	position:absolute;
 	left:0;
@@ -67,7 +67,7 @@ Font Credits:
 }
 .ut-title::after {
 	color:white;
-	font-family:"Monster Friend Fore","Monster Friend Back",Arial,sans-serif;
+	font-family:"MonsterFriendFore","MonsterFriendBack",Arial,sans-serif;
 	content:attr(data-text);
 	position:absolute;
 	left:0;
@@ -76,11 +76,11 @@ Font Credits:
 /* todo game over text */
 .ut-title-basic-fore {
 	/* For font access */
-	font-family:"Monster Friend Fore","Monster Friend Back",Arial,sans-serif;
+	font-family:"MonsterFriendFore","MonsterFriendBack",Arial,sans-serif;
 }
 .ut-title-basic-back {
 	/* For font access */
-	font-family:"Monster Friend Back","Monster Friend Fore",Arial,sans-serif;
+	font-family:"MonsterFriendBack","MonsterFriendFore",Arial,sans-serif;
 }
 .ut-stats, .ut-stats-full {
 	/* For text that should resemble the UT stat screen during combat (like player name) */
@@ -88,21 +88,21 @@ Font Credits:
 	font-size:0.8em;
 }
 .ut-stats {
-	font-family:MNC,"Crypt of Tomorrow",Broadway,"Arial Black",Arial,sans-serif;
+	font-family:MNC,"CryptofTomorrow",Broadway,"Arial Black",Arial,sans-serif;
 }
 .ut-stats-full {
-	font-family:"Crypt of Tomorrow",MNC,Broadway,"Arial Black",Arial,sans-serif;
+	font-family:"CryptofTomorrow",MNC,Broadway,"Arial Black",Arial,sans-serif;
 }
 .ut-dialogue {
 	/* For text that should resemble UT dialogue */
 	color:white;
-	font-family:"Determination Mono","Determination Sans","8-bit Operator","FixedSys","Terminal Vector","Courier New",monospace;
+	font-family:"DeterminationMono","DeterminationSans","8-bit Operator","FixedSys","Terminal Vector","Courier New",monospace;
 	font-size:1em;
 }
 .ut-menu {
 	/* For text that should resemble UT menus (like inventory) */
 	color:white;
-	font-family:"Determination Sans","Determination Mono","8-bit Operator","FixedSys","Terminal Vector",Arial,sans-serif;
+	font-family:"DeterminationSans","DeterminationMono","8-bit Operator","FixedSys","Terminal Vector",Arial,sans-serif;
 	font-size:1em;
 }
 .ut-damage {
@@ -113,7 +113,7 @@ Font Credits:
 .ut-action {
 	/* For text that should resemble the UT combat options */
 	color:white;
-	font-family:Mercy,"Determination Sans","Determination Mono","8-bit Operator","FixedSys","Terminal Vector",Arial,sans-serif;
+	font-family:Mercy,"DeterminationSans","DeterminationMono","8-bit Operator","FixedSys","Terminal Vector",Arial,sans-serif;
 }
 .ut-button, .ut-button-small {
 	/* For buttons that should resemble the UT combat options (FIGHT, ACT, ITEM, MERCY) */
