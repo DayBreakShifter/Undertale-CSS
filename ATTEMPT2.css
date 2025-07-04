@@ -1,39 +1,30 @@
-/*
-Font Credits:
-	Determination (Mono/Sans): https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font
-	Monster Friend (Fore/Back): https://www.behance.net/gallery/31378523/Monster-Friend-Undertale-Logo-Font
-	MNC: [WARNING: I changed the name of this font because the original was NSFW, and thus not very professional - go to link at own discresion] http://auntiepixelante.com/?p=606
-	Mercy: http://maxigamer.deviantart.com/art/MERCY-Font-the-UNDERTALE-font-for-battle-buttons-590779512
-
-	src:url("fonts/x/x.eot?") format("eot"),url("fonts/x/x.woff") format("woff"),url("fonts/x/x.otf") format("opentype");
-*/
 @font-face {
 	font-family:"Determination Mono";
-	src:url("fonts/dt mono/DeterminationMonoWeb.eot?") format("eot"),url("fonts/dt mono/DeterminationMonoWeb.woff") format("woff"),url("fonts/dt mono/DeterminationMonoWeb.otf") format("opentype");
+	src:url("fonts/mercy/MERCY.eot?") format("eot"),url("fonts/mercy/MERCY.woff") format("woff"),url("fonts/mercy/MERCY.otf") format("opentype");
 }
 @font-face {
 	font-family:"Determination Sans";
-  src:url("fonts/dt mono/DeterminationMonoWeb.eot?") format("eot"),url("fonts/dt mono/DeterminationMonoWeb.woff") format("woff"),url("fonts/dt mono/DeterminationMonoWeb.otf") format("opentype");
+	src:url("fonts/mercy/MERCY.eot?") format("eot"),url("fonts/mercy/MERCY.woff") format("woff"),url("fonts/mercy/MERCY.otf") format("opentype");
 }
 @font-face {
 	font-family:MNC;
-  src:url("fonts/dt mono/DeterminationMonoWeb.eot?") format("eot"),url("fonts/dt mono/DeterminationMonoWeb.woff") format("woff"),url("fonts/dt mono/DeterminationMonoWeb.otf") format("opentype");
+	src:url("fonts/mercy/MERCY.eot?") format("eot"),url("fonts/mercy/MERCY.woff") format("woff"),url("fonts/mercy/MERCY.otf") format("opentype");
 }
 @font-face {
 	font-family:"Monster Friend Back";
-  src:url("fonts/dt mono/DeterminationMonoWeb.eot?") format("eot"),url("fonts/dt mono/DeterminationMonoWeb.woff") format("woff"),url("fonts/dt mono/DeterminationMonoWeb.otf") format("opentype");
+	src:url("fonts/mercy/MERCY.eot?") format("eot"),url("fonts/mercy/MERCY.woff") format("woff"),url("fonts/mercy/MERCY.otf") format("opentype");
 }
 @font-face {
 	font-family:"Monster Friend Fore";
-  src:url("fonts/dt mono/DeterminationMonoWeb.eot?") format("eot"),url("fonts/dt mono/DeterminationMonoWeb.woff") format("woff"),url("fonts/dt mono/DeterminationMonoWeb.otf") format("opentype");
+	src:url("fonts/mercy/MERCY.eot?") format("eot"),url("fonts/mercy/MERCY.woff") format("woff"),url("fonts/mercy/MERCY.otf") format("opentype");
 }
 @font-face {
 	font-family:Mercy;
-  src:url("fonts/dt mono/DeterminationMonoWeb.eot?") format("eot"),url("fonts/dt mono/DeterminationMonoWeb.woff") format("woff"),url("fonts/dt mono/DeterminationMonoWeb.otf") format("opentype");
+	src:url("fonts/mercy/MERCY.eot?") format("eot"),url("fonts/mercy/MERCY.woff") format("woff"),url("fonts/mercy/MERCY.otf") format("opentype");
 }
 @font-face {
 	font-family:"Crypt of Tomorrow";
-  src:url("fonts/dt mono/DeterminationMonoWeb.eot?") format("eot"),url("fonts/dt mono/DeterminationMonoWeb.woff") format("woff"),url("fonts/dt mono/DeterminationMonoWeb.otf") format("opentype");
+	src:url("fonts/mercy/MERCY.eot?") format("eot"),url("fonts/mercy/MERCY.woff") format("woff"),url("fonts/mercy/MERCY.otf") format("opentype");
 }
 @font-face {
 	font-family:Hachicro;
