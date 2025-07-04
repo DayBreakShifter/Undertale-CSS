@@ -1,4 +1,8 @@
 @font-face {
 	font-family:"Mercy";
-	src:url("fonts/mercy/MERCY.eot?") format("eot"),url("fonts/mercy/MERCY.woff") format("woff"),url("fonts/mercy/MERCY.otf") format("opentype");
+	src:url("fonts/mercy/MERCY.eot?") format("eot"),
+	    url("fonts/mercy/MERCY.woff") format("woff"),
+	    url("fonts/mercy/MERCY.otf") format("opentype"),
+	    url("https://static.tumblr.com/r9reb79/YW8syuzyw/mercy.eot?") format("eot"),
+	    url("https://static.tumblr.com/r9reb79/CSPsyuzyu/mercy.otf") format("opentype");
 }
