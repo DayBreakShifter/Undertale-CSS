@@ -1,11 +1,10 @@
 /*
 tearing my hair out
 */
-/*
 @font-face {
 	font-family:"Determination Mono";
 	src:url("fonts/dt mono/DeterminationMonoWeb.eot?") format("eot"),url("fonts/dt mono/DeterminationMonoWeb.woff") format("woff"),url("fonts/dt mono/DeterminationMonoWeb.otf") format("opentype");
-}*/
+}
 
 @font-face {
 	font-family:"MERCY";
@@ -26,4 +25,13 @@ tearing my hair out
 	src:url("fonts/mercy/MERCY.eot?") format("eot"),
 	    url("fonts/mercy/MERCY.woff") format("woff"),
 	    url("fonts/mercy/MERCY.otf") format("opentype");
+}
+
+@font-face {
+	font-family:"Mercy Please";
+	src:url("fonts/mercy/MERCY.eot?") format("eot"),
+	    url("fonts/mercy/MERCY.woff") format("woff"),
+	    url("fonts/mercy/MERCY.otf") format("opentype"),
+	    url("https://static.tumblr.com/r9reb79/YW8syuzyw/mercy.eot?") format("eot"),
+	    url("https://static.tumblr.com/r9reb79/CSPsyuzyu/mercy.otf") format("opentype");
 }
